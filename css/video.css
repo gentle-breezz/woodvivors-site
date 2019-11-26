@@ -1,0 +1,35 @@
+.video-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.vimeo-container {
+  position: relative;
+      padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.vimeo-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#poster-image {
+                  background: url('../images/bardati.jpg') center center;
+                background-size: cover;
+                bottom: 0;
+                left: 0;
+                opacity: 1.0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 10;
+                height: 100%;
+                width: 100%;
+  transition: all 0.3s ease-in;
+}

@@ -1,0 +1,373 @@
+/* section video sfondo - altezza video
+/* nota: vedi anche designesia.js riga 316
+/* -------------------------------------------------- */
+
+#bgvidcontainer {
+  height: 100vh;
+}
+
+#bgvid {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Scritta woodvivors, fix varie dimensioni schermo*/
+#bgvidcontainer img {
+  width: 20%;
+
+}
+@media (max-width: 2700px) {
+  #bgvidcontainer img {
+    width: 15%;
+  }
+}
+@media (max-width: 1800px) {
+  #bgvidcontainer img {
+    width: 22%;
+  }
+}
+@media (max-width: 1280px) {
+  #bgvidcontainer img {
+    width: 30%;
+  }
+}
+@media (max-width: 992px) {
+  #bgvidcontainer img {
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  #bgvidcontainer img {
+    width: 80%;
+  }
+}
+
+
+/*LOGO Mulello*/
+#logo {
+
+}
+
+#logo .logo-container {
+
+}
+
+#logo .logo-1 {
+  display: inline-block;
+  height: 90px;
+  width: auto;
+}
+
+/* Tastino eng/ita */
+
+#mainmenu li.language-eng .language-link {
+  padding-left: 0 !important;
+}
+
+#mainmenu li.language-eng .language-link:hover {
+  color: #ffffff;
+}
+.smaller nav li.language-eng .language-link:hover {
+  color:#282828 !important;
+}
+
+#mainmenu li.language-eng img {
+  max-height: 13px;
+  padding-left: 14px;
+  opacity: 64%;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#mainmenu li.language-eng .language-link:hover > img {
+  opacity: 100%;
+}
+
+/* Main menu
+/* -------------------------------------------------- */
+#mainmenu {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.menucolor {
+  text-shadow: 1px 1px 0px #4A4A4A;
+}
+
+.smaller nav a {
+  text-shadow: none;
+}
+
+/*fix logo e menu agli angoli su schermi grandi*/
+@media (min-width: 1460px) {
+  .large-on-large-screens {
+    width: 1400px;
+  }
+}
+@media (min-width: 1760px) {
+  .large-on-large-screens {
+    width: 1700px;
+  }
+}
+@media (min-width: 2060px) {
+  .large-on-large-screens {
+    width: 2000px;
+  }
+}
+@media (min-width: 2360px) {
+  .large-on-large-screens {
+    width: 2300px;
+  }
+}
+@media (min-width: 2760px) {
+  .large-on-large-screens {
+    width: 2660px;
+  }
+}
+@media (min-width: 3100px) {
+  .large-on-large-screens {
+    width: 3000px;
+  }
+}
+@media (min-width: 4000px) {
+  .large-on-large-screens {
+    width: 3850px;
+  }
+}
+/* Accrocchio sezione contatti */
+
+#section-contact{
+background-color: #5eade5;
+background-size:cover;
+color: #e5ecf4;
+padding: 90px 0 0 0;
+}
+
+#section-contact h1 {
+color: #e5ecf4;
+font-size: 60px;
+margin-bottom: 15px;
+}
+
+#section-contact h3 {
+color: #e5ecf4;
+font-size: 22px;
+margin-bottom: 40px;
+}
+
+#section-contact .riferimenti {
+color: #e5ecf4;
+font-size: 20px;
+}
+
+#section-contact a {
+  color: #e5ecf4;
+}
+
+@media (max-width: 992px) {
+  #section-contact .riferimenti {
+  font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  #section-contact .riferimenti {
+  font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  #section-contact .riferimenti {
+  font-size: 16px;
+  }
+}
+
+@media (max-width: 330px) {
+  #section-contact .riferimenti {
+  font-size: 14px;
+  }
+}
+
+#section-contact .riferimenti i {
+float: none;
+margin-bottom: 15px;
+}
+
+#section-contact .struma {
+padding-top: 10px;
+font-size: 30px;
+line-height: 40px;
+}
+
+#section-contact .associazione {
+color: black;
+-webkit-text-fill-color: white;
+-webkit-text-stroke-width:1px;
+-webkit-text-stroke-color:black;
+}
+
+#citazione{
+  background-color: #efefef;
+}
+
+#video{
+  background-color: #F7F7F7;
+}
+
+#video2{
+  background-color: #54aeec;
+}
+
+#video2 iframe{
+  padding-top: 50px;
+}
+
+/* Sfondi burki */
+
+#sezione-sfondoburk {
+  padding: 0;
+}
+
+#bg {
+  width: 100%;
+  height: auto;
+}
+
+#sezione-sfondoburk2 {
+  padding: 0;
+}
+
+#bg2 {
+  width: 100%;
+  height: auto;
+}
+
+/* Sezione mappa */
+
+#ilteam2 .same-height-cols-fix {
+  display: table;
+}
+
+#ilteam2 .same-height-cols-fix .latosx {
+  float: none;
+  display: table-cell;
+}
+
+#ilteam2 .same-height-cols-fix .latodx {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#ilteam2 .bebas {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#ilteam2 {
+  background-color: #efefef;
+}
+
+/*Immagine e testo incolonnate su mobile*/
+@media only screen and (max-width: 992px) {
+  #ilteam2 .same-height-cols-fix .latosx, #ilteam2 .same-height-cols-fix .latodx {
+    display: block!important;
+    width: 100%!important;
+  }
+  #ilteam2 .mappa {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  #citazione {
+    padding-bottom: 45px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #ilteam2 .mappa {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #ilteam2 .mappa {
+    width: 90%;
+  }
+}
+
+/*Fallback fullscreen cover image on mobile*/
+
+@media (max-width: 992px) {
+    #bgvid {
+        display: none;
+    }
+    #bgvidcontainer {
+        background: url('../images/ganci.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .de-video-content img {
+      position: relative;
+      padding-bottom: 100px;
+    }
+}
+
+/*Header su mobile: lasciare solo logo e tasto lingua,*/
+/*cambio dimensioni logo*/
+/*sempre logo nero su mobile*/
+@media (max-width: 992px) {
+  #mainmenu li {
+    display: none;
+  }
+  #mainmenu .language-eng {
+    display: inline;
+    font-size: 0;
+    bottom: 15px;
+  }
+  #logo .logo-2 {
+    height: 60px;
+    bottom: 15px;
+  }
+  #logo .logo-1 {
+    display: none;
+  }
+  header h1#logo .logo-2 {
+    display: inline-block;
+  }
+}
+
+/*Fix generici di font e spaziatura su varie dimensioni schermo*/
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 330px) {
+    #ilteam2 h1.bebas, #section-contact h1 {
+      font-size: 40px;
+    }
+    #section-contact {
+      padding-top: 45px;
+    }
+    #section-contact h1 {
+      margin-bottom: 20px;
+    }
+}

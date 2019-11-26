@@ -1,0 +1,157 @@
+.sezione-sfondoburk {
+  padding: 0;
+}
+
+.sezione-sfondoburk img {
+  width: 100%;
+  height: auto;
+}
+
+.punti h3 {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.punti h6 {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.punti p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #282828;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 600px) {
+  .punti p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.punti ul {
+  list-style: none;
+  text-align: left;
+  font-size: 17px;
+  color: #282828;
+}
+
+@media (max-width: 600px) {
+  .punti ul {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .punti ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .punti h3 {
+    text-align: center;
+  }
+
+  .punti h6 {
+    text-align: center;
+  }
+
+  .punti p {
+    text-align: center;
+  }
+}
+
+/*TITOLO*/
+.sezione-sfondoburk-alberi {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  background: url(../images/alberi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sezione-sfondoburk-alberi img{
+  width: 400px;
+}
+
+@media (max-width: 992px) {
+    .contenuto-sezioni{
+        position: relative;
+        bottom: 110px;
+    }
+}
+
+/*CITAZIONE & PROGETTO*/
+#citazione_progetto {
+  background-color: #fffefa;
+  padding-bottom: 0;
+}
+
+#citazione_progetto .citazione{
+    font-family: 'bebas_neueregular';
+    font-weight: lighter;
+}
+
+@media (max-width: 600px)  {
+  #citazione_progetto .citazione {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+}
+
+@media (max-width: 768px) {
+  #citazione_progetto .citazione {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+#citazione_progetto .punti {
+    margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  #citazione_progetto .punti {
+    margin-top: 50px;
+  }
+}
+
+/*OBIETTIVI & TEAM*/
+#obiettivi_team {
+  background-color: #ecedef;
+  padding-bottom: 0;
+}
+
+/* ITINERARIO */
+#itinerario {
+  background-color: #9ed8f0;
+  padding-bottom: 0;
+}
