@@ -80,7 +80,7 @@
   padding: 0;
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 100vh;
   text-align: center;
   background: url(../images/alberi.jpg);
   background-repeat: no-repeat;
@@ -97,13 +97,12 @@
 
 .sezione-sfondoburk-alberi img{
   width: 400px;
-}
-
-@media (max-width: 992px) {
-    .contenuto-sezioni{
-        position: relative;
-        bottom: 110px;
-    }
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 50px;
+  position: absolute;
 }
 
 /*CITAZIONE & PROGETTO*/
