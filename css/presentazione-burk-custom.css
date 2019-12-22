@@ -49,6 +49,18 @@
   color: #282828;
 }
 
+.punti ul a:link {
+  color: #2589db;
+}
+
+.punti ul a:visited {
+  color: #2589db;
+}
+
+.punti ul a:hover {
+  color: #2589db;
+}
+
 @media (max-width: 600px) {
   .punti ul {
     padding-left: 0px;
