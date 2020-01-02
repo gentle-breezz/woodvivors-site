@@ -1,0 +1,13 @@
+Options -Multiviews
+
+RewriteEngine On
+RewriteBase /
+
+# Force search engines to use woodvivors.it
+RewriteCond %{HTTP_HOST} !^woodvivors\.it$
+RewriteRule ^(.*) http://woodvivors.it/$1 [R=301,L]
+
+# Specify search friendly URLs
+RewriteRule ^en$ /index_eng.html [L]
+
+# Generated for free at SearchFriendlyURLs.com
