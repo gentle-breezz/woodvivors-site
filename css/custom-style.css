@@ -293,6 +293,10 @@ color: black;
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); /* WebKit */
+  -moz-transform: translate(-50%, -50%); /* Mozilla */
+  -o-transform: translate(-50%, -50%); /* Opera */
+  -ms-transform: translate(-50%, -50%); /* Internet Explorer */
   width: 80%;
 }
 
