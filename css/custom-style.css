@@ -46,14 +46,7 @@
 }
 
 
-/*LOGO Mulello*/
-#logo {
-
-}
-
-#logo .logo-container {
-
-}
+/* LOGO Mulello */
 
 #logo .logo-1 {
   display: inline-block;
@@ -88,6 +81,46 @@
 #mainmenu li.language-eng .language-link:hover > img {
   opacity: 100%;
 }
+
+/* Tastino donate */
+
+#mainmenu li.donate {
+  display:none;
+}
+
+#mainmenu li.donate .donate-link {
+  padding-left: 0 !important;
+}
+
+#mainmenu li.donate .donate-link:hover {
+  color: #ffffff;
+}
+.smaller nav li.donate .donate-link:hover {
+  color:#282828 !important;
+}
+
+#mainmenu li.donate img {
+  max-height: 25px;
+  padding-left: 14px;
+  opacity: 64%;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#mainmenu li.donate .donate-link:hover > img {
+  opacity: 100%;
+}
+
+/*Tasto presente solo su mobile*/
+@media only screen and (max-width: 992px) {
+  #mainmenu li.donate {
+    display: inline;
+  }
+}
+
 
 /* Main menu
 /* -------------------------------------------------- */
@@ -190,7 +223,7 @@ font-size: 20px;
 
 @media (max-width: 330px) {
   #section-contact .riferimenti {
-  font-size: 14px;
+  font-size: 13px;
   }
 }
 
@@ -247,6 +280,147 @@ color: black;
   width: 100%;
   height: auto;
 }
+
+/* SOTTOSEZIONE CROWDFUNDING */
+
+#sezione-sfondoburk2 .posternone {
+  position: relative;
+  text-align: center;
+}
+
+#sezione-sfondoburk2 .posternone .testo-centrato {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+#sezione-sfondoburk2 .posternone .testo-centrato h1{
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/*Link produzioni dal basso*/
+#sezione-sfondoburk2 h1 a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+#sezione-sfondoburk2 h1 a:visited {
+  color: white;
+}
+
+#sezione-sfondoburk2 h1 a:hover {
+  color: #2589db;
+}
+
+/*Tasto Sostienici*/
+#sezione-sfondoburk2 .button {
+  font-family: 'bebas_neueregular';
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  padding: 6px 30px 6px 30px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+#sezione-sfondoburk2 .button:hover {
+  padding: 10px 34px 10px 34px;
+}
+
+#sezione-sfondoburk2 .fa {
+  float: none;
+  margin: 0 0 0 9px;
+  position: relative;
+  bottom: 3px;
+  font-size: 18px;
+}
+
+/*Sottosezione slitta verso giù per non finire sulle nuvole ;)*/
+@media only screen and (max-width: 767px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato {
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  #sezione-sfondoburk2 .button {
+    font-size: 20px;
+    padding: 6px 30px 6px 30px;
+  }
+  #sezione-sfondoburk2 .fa {
+    bottom: 1px;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato {
+    top: 65%;
+    width: 90%;
+  }
+
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    font-size: 20px;
+  }
+  #sezione-sfondoburk2 .button {
+    font-size: 15px;
+    padding: 5px 15px 5px 20px;
+  }
+  #sezione-sfondoburk2 .button:hover {
+    padding: 10px 18px 10px 23px;
+  }
+  #sezione-sfondoburk2 .fa {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    font-size: 15px;
+  }
+  #sezione-sfondoburk2 .button {
+    font-size: 13px;
+  }
+  #sezione-sfondoburk2 .fa {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #sezione-sfondoburk2 .posternone .testo-centrato {
+    width: 95%;
+  }
+
+  #sezione-sfondoburk2 .posternone .testo-centrato h1 {
+    margin-bottom: 1px;
+  }
+}
+
 
 /* Sezione mappa */
 
@@ -389,6 +563,11 @@ color: black;
     font-size: 0;
     bottom: 15px;
   }
+  #mainmenu .donate {
+    display: inline;
+    font-size: 0;
+    bottom: 15px;
+  }
   #logo .logo-2 {
     height: 60px;
     bottom: 15px;
@@ -402,18 +581,6 @@ color: black;
 }
 
 /*Fix generici di font e spaziatura su varie dimensioni schermo*/
-
-@media (max-width: 992px) {
-
-}
-
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 480px) {
-
-}
 
 @media (max-width: 330px) {
     #ilteam2 h1.bebas, #section-contact h1 {

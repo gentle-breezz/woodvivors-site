@@ -166,3 +166,28 @@
   background-color: #9ed8f0;
   padding-bottom: 0;
 }
+
+/* SPONSOR */
+
+#sponsor {
+  background: #000;
+  padding: 20px 0 40px 0;
+}
+
+#sponsor img {
+  margin: auto !important;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  #toTop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sponsor .ferrino {
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+}
