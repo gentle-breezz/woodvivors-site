@@ -184,10 +184,3 @@
     display: none !important;
   }
 }
-
-@media (min-width: 1200px) {
-  #sponsor .ferrino {
-    padding-left: 20px;
-    padding-top: 3px;
-  }
-}

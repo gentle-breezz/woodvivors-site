@@ -188,12 +188,6 @@ font-size: 60px;
 margin-bottom: 15px;
 }
 
-#section-contact h3 {
-color: #e5ecf4;
-font-size: 22px;
-margin-bottom: 40px;
-}
-
 #section-contact .riferimenti {
 color: #e5ecf4;
 font-size: 20px;
@@ -221,28 +215,18 @@ font-size: 20px;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 370px) {
   #section-contact .riferimenti {
   font-size: 13px;
+  }
+  #section-contact h1 {
+  font-size: 45px;
   }
 }
 
 #section-contact .riferimenti i {
 float: none;
 margin-bottom: 15px;
-}
-
-#section-contact .struma {
-padding-top: 10px;
-font-size: 30px;
-line-height: 40px;
-}
-
-#section-contact .associazione {
-color: black;
--webkit-text-fill-color: white;
--webkit-text-stroke-width:1px;
--webkit-text-stroke-color:black;
 }
 
 #citazione{
